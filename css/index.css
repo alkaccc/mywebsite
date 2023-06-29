@@ -1,0 +1,58 @@
+.social-media {
+    display: flex;
+    
+}
+
+.vk img {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 270px;
+    transition: all 0.3s ease;
+}
+.vk img:hover {
+    width: 5%;
+    height: 10%;
+}
+
+.tiktok img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    left: calc(48% - 150px);
+    margin-top: 240px;
+    transition: all 0.3s ease;
+}
+
+.tiktok img:hover {
+    width: 5%;
+    height: 10%;
+}
+
+.youtube img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    right: calc(48% - 150px);
+    margin-top: 236px;
+    transition: all 0.3s ease;
+}
+
+.youtube img:hover {
+    width: 5%;
+    height: 10%;
+}
+
+.amnyam img {
+    width: 150px;
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
