@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUZZXC</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <div class="social-media">
+        <div class="youtube">
+            <a href="https://www.youtube.com/watch?v=umapS-_WJcs" target="_blank">
+                <img src="img/youtube.png">
+            </a>
+        </div>
+
+        <div class="tiktok">
+            <a href="https://vt.tiktok.com/ZSLrmLjYb/" target="_blank">
+                <img src="img/tiktok.png">
+            </a>
+        </div>
+
+        <div class="vk">
+            <a href="https://vk.com/alkaccc" target="_blank">
+                <img src="img/vk.png">
+            </a>
+        </div>
+    </div>
+    <div class="amnyam">
+        <a href="#">
+            <img src="img/1.gif" onclick="changeImage()" id="myImage">
+
+<script>
+function changeImage() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("img/1.gif")) {
+    image.src = "img/2.gif";
+  } else if (image.src.match("img/2.gif")) {
+    image.src = "img/3.gif";
+  } else if (image.src.match("img/3.gif")) {
+    image.src = "img/4.gif";
+  } else if (image.src.match("img/4.gif")) {
+    image.src = "img/5.gif";
+  } else if (image.src.match("img/5.gif")) {
+    image.src = "img/6.gif";
+  } else {
+    image.src = "img/1.gif";
+  }
+}
+</script>
+        </a>
+    </div>
+</body>
+</html>
